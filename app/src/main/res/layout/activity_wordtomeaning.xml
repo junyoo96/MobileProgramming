@@ -22,7 +22,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:text="3"
-
+            android:id="@+id/wordtomeaning_wrongtimes"
             android:textColor="@android:color/holo_red_light"
             android:textSize="20dp" />
 
@@ -48,6 +48,7 @@
             android:text="사칭하다"
             android:textSize="30dp"
             android:textStyle="bold"
+            android:id="@+id/wordtomeaning_word"
             />
 
     </LinearLayout>
@@ -63,6 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
+            android:id="@+id/wordtomeaning_meaningLayoutOne"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -77,6 +79,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="~를 대신하다"
                     android:textSize="20dp"
+                    android:id="@+id/wordtomeaning_meaningone"
                     />
 
             </LinearLayout>
@@ -87,9 +90,12 @@
                 android:layout_weight="3.5"
                 android:gravity="center">
 
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/wrongsign"
+                    android:textSize="20dp"/>
 
 
             </LinearLayout>
@@ -100,7 +106,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center">
+            android:gravity="center"
+            android:id="@+id/wordtomeaning_meaningLayoutTwo">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -114,6 +121,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="~를 대신하다"
                     android:textSize="20dp"
+                    android:id="@+id/wordtomeaning_meaningtwo"
                     />
 
             </LinearLayout>
@@ -124,9 +132,11 @@
                 android:layout_weight="3.5"
                 android:gravity="center">
 
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="20dp"/>
 
 
             </LinearLayout>
@@ -140,7 +150,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center">
+            android:gravity="center"
+            android:id="@+id/wordtomeaning_meaningLayoutThree">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -154,6 +165,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="~를 대신하다"
                     android:textSize="20dp"
+                    android:id="@+id/wordtomeaning_meaningthree"
                     />
 
             </LinearLayout>
@@ -164,9 +176,11 @@
                 android:layout_weight="3.5"
                 android:gravity="center">
 
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="20dp"/>
 
 
             </LinearLayout>

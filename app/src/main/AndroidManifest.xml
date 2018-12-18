@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WordToMeaningActivity"/>
+        <activity android:name=".MeaningToWordActivity"/>
+        <activity android:name=".WrongWordDetailActivity"/>
+        <activity android:name=".WrongWordListActivity"/>
     </application>
 
 </manifest>
